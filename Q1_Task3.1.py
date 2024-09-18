@@ -22,7 +22,7 @@ def count_word_occurrences(file_path):
 top_30_words = count_word_occurrences(file_path)
  
 # Write the top 30 words and their counts into a CSV file
-output_csv = "./Assignment 2/top_30_words.csv"
+output_csv = "top_30_words.csv"
 with open(output_csv, mode='w', newline='', encoding='utf-8') as csv_file:
     writer = csv.writer(csv_file)
     writer.writerow(['Word', 'Count'])  # Header
